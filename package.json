@@ -1,0 +1,25 @@
+{
+  "name": "NodeSocks",
+  "version": "1.0.0",
+  "description": "A demo Node.js + Socket.IO application that covers most of the basic needs of a pubsub system. And, all in about 100 lines of code.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rexfm/NodeSocks"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rexfm/NodeSocks/issues"
+  },
+  "homepage": "https://github.com/rexfm/NodeSocks",
+  "dependencies": {
+    "ejs": "^0.7.2",
+    "express": "^2.5.10",
+    "socket.io": "^0.9.6"
+  }
+}
